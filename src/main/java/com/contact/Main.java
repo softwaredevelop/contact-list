@@ -1,8 +1,8 @@
 package com.contact;
 
-import com.contact.controller.IRepository;
+import com.contact.contact.IRepository;
 import com.contact.controller.FrameController;
-import com.contact.db.SQLRepository;
+import com.contact.contact.SQLRepository;
 import java.net.URL;
 import javafx.application.Application;
 import static javafx.application.Application.launch;

@@ -24,13 +24,13 @@ class SQLRepositoryTest {
     @Test
     void get() {
         s.get(1);
-        Assertions.assertEquals(String.valueOf(s.get(1)), "kernev1 veznev1", "Equal");
+        Assertions.assertEquals(String.valueOf(s.get(1)), "software develop", "Equal");
     }
 
     @Test
     void getAll() {
         s.getAll();
-        Assertions.assertEquals(String.valueOf(s.getAll()), "[kernev1 veznev1]", "Equal");
+        Assertions.assertEquals(String.valueOf(s.getAll()), "[software develop]", "Equal");
     }
 
     @Test

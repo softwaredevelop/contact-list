@@ -1,6 +1,7 @@
 package com.contact.controller;
 
-import com.contact.model.Contact;
+import com.contact.contact.IRepository;
+import com.contact.contact.Contact;
 
 import java.net.URL;
 import java.util.ResourceBundle;

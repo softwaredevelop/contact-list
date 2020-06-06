@@ -46,20 +46,20 @@
                         <RowConstraints vgrow="SOMETIMES" />
                             </rowConstraints>
                             <children>
-                                
+
+                                <Label text="Vezetéknév:" GridPane.rowIndex="1">
+                                    <GridPane.margin>
+                                        <Insets right="5.0" />
+                                    </GridPane.margin>
+                                </Label>
+                                <TextField fx:id="textFieldFirstName" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
                                 <Label text="Keresztnév:" GridPane.rowIndex="2">
                                     <GridPane.margin>
                                         <Insets right="5.0" />
                                     </GridPane.margin>
                                 </Label>
-                                <TextField fx:id="textFieldFirstName" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                                
-                                <Label text="Vezetéknév:">
-                                    <GridPane.margin>
-                                        <Insets right="5.0" />
-                                    </GridPane.margin>
-                                </Label>
-                                <TextField fx:id="textFieldLastName" GridPane.columnIndex="1" />
+                                <TextField fx:id="textFieldLastName" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                                 
                                 <Label text="E-mail:" GridPane.rowIndex="3">
                                     <GridPane.margin>
@@ -107,7 +107,7 @@
                                 <ButtonBar prefHeight="40.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="8">
                                     <buttons>
                                         <Button fx:id="buttonAdd" mnemonicParsing="false" onAction="#addContact" text="Hozzáad" />
-                                        <Button fx:id="buttonUpdate" mnemonicParsing="false" onAction="#updateContact" text="Frissít" />
+                                        <Button fx:id="buttonUpdate" mnemonicParsing="false" onAction="#updateContact" text="Módosít" />
                                         <Button fx:id="buttonRemove" mnemonicParsing="false" onAction="#removeContact" text="Törlés" />
                                     </buttons>
                                 </ButtonBar>
