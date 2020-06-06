@@ -3,14 +3,16 @@
 ```sh
 $ mvn javafx:run
 ```
-Adatok hozzáadása a kapcsolat adatokat tartalmazó adatbázishoz:
+## Kapcsolatok szerkesztése
+
+- kapcsolati adatok hozzáadása
 
 ![add](./pics/01.png?raw=true)
 
-Adatok módosítása:
+- kapcsolati adatok módosítása
 
 ![update](./pics/02.png?raw=true)
 
-Adatok törlése:
+- kapcsolati adatok törlése
 
 ![remove](./pics/03.png?raw=true)
